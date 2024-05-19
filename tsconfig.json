@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "NodeNext",
+        "outDir": "build",
+        "baseUrl": "src",
+        "strict": true,
+        "esModuleInterop": true,
+        "moduleResolution": "NodeNext",
+        "sourceMap": true,
+        "forceConsistentCasingInFileNames": true,
+        "noImplicitAny": true,
+    },
+    "include": [
+        "src/**/*"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
